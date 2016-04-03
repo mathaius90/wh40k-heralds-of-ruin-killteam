@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="66c7-4643-a257-89d9" revision="1" gameSystemId="c138ada2-95db-4a25-7d44-b8c80b632d36" gameSystemRevision="17" battleScribeVersion="1.15" name="Space Wolves: HoR" books="Kill Team List: Space Wolves v3.0a" authorName="Bent Nürnberg (Skoll)" authorContact="bent.nuernberg@gmail.com" authorUrl="https://github.com/BSData/wh40k-heralds-of-ruin-killteam/issues" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entries>
+    <entry id="65d6-2939-b929-91c5" name="Wolf Guard Pack Leader" points="24.0" categoryId="24d73a20-a6c6-f7d3-de9c-0c7b39f48b15" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="1">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="10ba-a03e-c1cc-7da4" name="1st Weapon" defaultEntryId="27dc-91ad-3d64-0312" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="80e7-43ca-69ef-69c0" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="80e7-43ca-69ef-69c0" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <links>
+            <link id="27dc-91ad-3d64-0312" targetId="6b8d-ccd7-98a1-87c7" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="109c-db13-d5fa-1125" targetId="40cb-a955-5f4a-6224" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="63e5-40f4-40dd-614a" targetId="416c-002a-5741-499f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="3376-219f-990b-ecc9" targetId="cd0d-d0d1-2fa3-c75d" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="93c8-4bb3-de6b-4e48" name="2nd Weapon" defaultEntryId="ab30-491e-b8b0-1381" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="ab30-491e-b8b0-1381" targetId="f381-3a0b-34d4-1dde" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="b6bf-c074-bd5d-ff42" targetId="411b-02f5-5c5e-04d0" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="21ed-8c02-1f6c-b35f" targetId="afd7-f881-2821-b070" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="16f3-1284-47f3-5812" targetId="950b-0bbf-769e-d2f7" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="3fa9-5aa8-1d72-4dcb" targetId="360c-94cf-d44f-7159" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="cde7-ae46-8268-e523" targetId="cac5-0493-ceac-2445" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </entries>
+  <rules/>
+  <links/>
+  <sharedEntries>
+    <entry id="06ad-281e-57a9-8fc6" name="Back Banner" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="89ad-f9a8-9a91-a81f" targetId="7ab2-df2e-a59c-a576" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6b8d-ccd7-98a1-87c7" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a220-602e-33a0-50b7" targetId="b3be-4409-4cb7-d3d4" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f381-3a0b-34d4-1dde" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0198-c82c-011a-1a7b" targetId="e867-e3b0-b694-8d1b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7a39-3a73-b803-b436" name="Combi-Weapon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="da04-643b-a5ab-4b34" targetId="709d-152f-3b9f-8529" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bb61-144c-7dc7-2764" name="Digital weapons" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8dc2-a1f3-acd2-93fa" targetId="db94-e74b-ef7c-72e2" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3bfa-01a8-7b17-1550" name="Fenrisian Wolf" points="8.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="665c-6765-5041-37f2" targetId="ff73-19c9-9dde-d654" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3939-eada-ad13-f051" name="Frag Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fe35-cda8-ab48-1dca" targetId="a3fa-07b2-934e-bc59" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d756-28da-08d8-dffd" targetId="b273-d04d-af86-ff9b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f658-af56-48fe-4fb8" name="Frost Axe" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0f5b-fa80-0c4b-1dec" targetId="355d-0869-9afd-a4c0" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3be4-3053-8534-2812" name="Frost Sword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c1f0-59b6-2444-5456" targetId="0a9b-bbdb-0eea-a3c3" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="91ee-0f59-082e-58e6" name="Jump Pack" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8de0-f1dc-5a67-ff17" targetId="d310-8838-16ba-db33" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0b23-dede-d397-cac0" name="Melee Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="4626-1271-205a-0d95" targetId="c3f6-d672-d71a-d26a" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2913-7d15-3a88-4deb" name="Melta Bomb" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9fea-84bd-5049-9bd1" targetId="3767-3dbc-96e6-aaff" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f8ba-4934-b73b-a101" name="Plasma Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2b13-e57d-7de9-1ea1" targetId="6eba-8abd-4375-523f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cc20-f671-063a-e7a3" name="Power Armour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="b5ff-dbcc-f122-2fef" name="Krak Grenade" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="decrement" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="b5ff-dbcc-f122-2fef" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="930d-93da-678f-20e0" targetId="d4b3-aeac-a62b-73f2" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="9893-0293-a678-9956" targetId="f6c5-7e31-4d62-1f55" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="40ed-8d46-1833-5f81" targetId="4c1c-768e-fb58-de5a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="af2a-7e8b-8b10-91d7" name="Power Fist" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e88f-4387-e8a0-78b6" targetId="824c-93db-8f66-1d1b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9f9a-2880-0c02-1046" name="Power Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="898a-8f3e-4eb5-30e5" targetId="34b1-f90a-fd16-b9a0" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="09dc-e709-fe72-0d18" name="Ranged Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0973-f460-e5f6-fa22" targetId="df69-edeb-b55f-81f7" linkType="entry group">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9071-c08a-28df-c409" name="Space Marine Bike" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e9c5-dcd1-cd97-faa2" targetId="0364-a115-2a4f-b4ff" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6862-f73f-b747-382c" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="99d1-5034-44bc-0feb" targetId="1b4d-4399-1aa2-a89f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b9b3-da54-cc06-5945" name="Storm Shield" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f0c4-e9e6-d5a7-3441" targetId="1dec-d73e-78f3-d5ad" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="80e7-43ca-69ef-69c0" name="Terminator Armour" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="f77e-5cbe-669f-ef4c" targetId="1049-e06a-3471-1dff" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e6b9-390b-b70a-d726" name="Thunder Hammer" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7615-b876-88bc-93ff" targetId="fad0-c988-d034-d309" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="89c8-4ff1-4f47-991d" name="Two Wolf Claws" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5873-f4a9-7cdd-f2a4" targetId="7e3b-d0e1-c16a-ff9a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="40cb-a955-5f4a-6224" name="Tyrfang" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="914c-1dc9-3244-3afe" targetId="0e62-3a82-e448-4bb7" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5e95-3731-6598-9100" name="Wolf Claw" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="0f8f-740a-331e-5453" targetId="7e3b-d0e1-c16a-ff9a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="416c-002a-5741-499f" name="Helbiter" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="6822-ccbf-140f-76a3" targetId="b4cd-df27-2961-9694" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cd0d-d0d1-2fa3-c75d" name="Wulfjaw" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="d66b-7948-cf41-a466" targetId="d568-336c-3684-9adb" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
+  <sharedEntryGroups>
+    <entryGroup id="411b-02f5-5c5e-04d0" name="Leader Armour" defaultEntryId="0f38-589d-78e5-7c9c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="0f38-589d-78e5-7c9c" targetId="cc20-f671-063a-e7a3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6589-8152-51a2-b2d0" targetId="80e7-43ca-69ef-69c0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="709d-152f-3b9f-8529" name="Combi-Weapon" defaultEntryId="e5e3-a186-d526-5e65" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e5e3-a186-d526-5e65" name="Combi-Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="b563-ed82-6cee-ab11" targetId="1976-f2c1-019a-d6d0" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="2703-adc6-1229-5bf0" targetId="5c10-13b8-a979-42d9" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="8435-8b4e-9910-bed8" targetId="8c97-3cc4-1d51-bd9f" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3f74-34da-fd0f-ede2" name="Combi-Melta" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9b6e-44aa-1179-4b42" targetId="1976-f2c1-019a-d6d0" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="f268-1a7e-bc9b-1814" targetId="5c10-13b8-a979-42d9" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="f51a-8dcc-4601-7b34" targetId="5449-13a7-e968-283b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="551c-1805-0646-21cc" name="Combi-Plasma" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="2cc6-e43c-b41e-3a79" targetId="1976-f2c1-019a-d6d0" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="3a75-1c95-d478-712c" targetId="5c10-13b8-a979-42d9" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="4363-79cb-2f54-04e5" targetId="4f64-1dc6-7554-4933" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="c3f6-d672-d71a-d26a" name="Melee Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="22b6-3ab9-15be-e70e" targetId="9f9a-2880-0c02-1046" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6f61-7abd-1b50-0777" targetId="b9b3-da54-cc06-5945" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d20c-474f-2c57-ce86" targetId="5e95-3731-6598-9100" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="10a6-8b81-0be6-1cde" targetId="e6b9-390b-b70a-d726" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d9c7-7b5b-0f4b-84a4" targetId="f658-af56-48fe-4fb8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d75d-d9b4-c61d-38a6" targetId="3be4-3053-8534-2812" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c069-8534-71a5-7730" targetId="af2a-7e8b-8b10-91d7" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="1d82-8af3-7a86-457a" name="Power Armour Weapons" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="34b1-f90a-fd16-b9a0" name="Power Weapon" defaultEntryId="a924-1a47-ef26-bfe7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="a924-1a47-ef26-bfe7" name="Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="27a5-5a22-128f-9443" targetId="cef5-0e2a-4508-3e4a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d1dc-7629-c2ae-3ccf" name="Power Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="122a-b1f6-371d-0222" targetId="9b70-e332-af5a-2631" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="fa93-f0fa-1806-03aa" targetId="ff8c-d1e0-7519-85a3" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5297-c807-b8d0-d143" name="Power Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="292e-5317-1d63-d5ae" targetId="8e6b-0a44-df33-9ddd" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8d24-84a2-dbf6-eceb" name="Power Maul" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4681-ebee-1cbf-2531" targetId="8421-2495-633f-50c0" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="df69-edeb-b55f-81f7" name="Ranged Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="9843-a432-2aaa-d7c9" targetId="f8ba-4934-b73b-a101" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="cb74-61cd-570a-ae38" targetId="6862-f73f-b747-382c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e180-a49c-eee4-3a68" targetId="7a39-3a73-b803-b436" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+    <entryGroup id="afd7-f881-2821-b070" name="Space Wolves Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="8936-ef4a-e32a-2098" name="Auspex" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6c88-45b9-c421-d28e" targetId="38d1-949c-57b9-4032" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1f67-4914-0b1f-3fc7" name="Auxiliary Grenade Launcher" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="1c92-5ef0-a584-4546" targetId="67c9-7cfa-0564-3d7b" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3f36-c918-5ad6-6894" name="Bionics" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8db3-ebb0-fbca-5281" targetId="3469-2292-24b0-903d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b57a-6968-80a9-c8cd" name="Master-crafted Weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e519-e128-fe0a-44bb" targetId="1aac-73b4-ef37-08d3" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e3b5-6926-075a-61ff" name="Overcharged Weapon" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9b65-2f59-9410-65ff" targetId="41be-48be-5e37-1a89" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2231-867f-5677-3a9a" name="Smoke Grenades" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="c631-0f0f-377f-86b2" targetId="c293-4b26-f67d-8697" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e823-67fc-9da6-afe4" name="Suspensors" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="772f-fc98-4dcf-2c3a" targetId="14b5-1a67-753c-46b6" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="91bf-751d-4056-ab20" name="Targeter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="e6be-a199-a2fa-0c0d" targetId="e9be-077d-dacb-e5f4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="950b-0bbf-769e-d2f7" name="Space Wolves Leader Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="0f78-2fb6-161f-094c" name="Amulet of Russ" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6c36-d18b-2355-e303" targetId="3527-67f0-107e-33a1" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fea8-eba5-881c-d06f" name="Mark of the Wulfen" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9b7c-3c23-d322-dee8" targetId="01fd-9e88-4ed6-dfc4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8aab-d937-d78a-76f1" name="Wolf Tail Talisman" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="21bd-1be2-01d4-7a3f" targetId="89ee-0e82-ac84-7bc2" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0773-9996-c89d-c20b" name="Wolftooth Necklace" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="02a0-d5f7-712b-55d3" targetId="7be2-5f43-85b2-47e7" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="360c-94cf-d44f-7159" name="Space Wolves Pack Leader Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7912-4a0f-98cc-97a1" name="Keen Senses" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="fd6a-49cc-5861-a716" targetId="1259-a3fe-5c0b-b8ec" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="85c9-102c-1bed-9efb" name="Pelt of the Dire Wolf" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="8fd3-3fd0-240b-0556" targetId="1158-562d-32ca-ec52" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a286-b5c4-17ed-b346" name="Saga of the Frontrunner" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="4293-005a-937d-bb58" targetId="ee5d-8767-6e00-93e4" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="a3ef-d19c-7b05-f9c9" name="Wolf Helm" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="a9eb-9cc7-5cbf-45e7" targetId="0733-5d00-a30f-6b70" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <links/>
+    </entryGroup>
+    <entryGroup id="cac5-0493-ceac-2445" name="Space Wolves Terminator Armoury" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4066-4e37-d49f-e528" name="Auto-launchers" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="caa2-de24-d066-534e" targetId="8daa-c10c-ad88-549e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7999-ddde-8d6b-8e3e" name="Teleporter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6244-1e05-0ee6-6adf" targetId="5abf-96b2-5c05-bd4d" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="c409-2d0b-79c6-7861" name="Armour Pattern" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5080-e4e8-7cc1-97a0" name="Cataphractii Pattern" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4694-fc19-0e6e-5ec2" targetId="50ac-fc5e-9ea5-e2dd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="877d-42a7-888c-decf" name="Tartaros Pattern" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1833-dbad-5f99-2322" targetId="e3d9-8c65-f779-5032" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="80e7-43ca-69ef-69c0" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="direct parent" childId="80e7-43ca-69ef-69c0" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <links/>
+    </entryGroup>
+  </sharedEntryGroups>
+  <sharedRules>
+    <rule id="9fc6-8ed7-e767-d5e7" name="A Glorious Death" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="7">
+      <description>The Lone Wolf may never claim/contest objectives, including controlling a building in Take and Hold, and his death may never count towards any victory conditions (such as in Escalating Skirmish). </description>
+      <modifiers/>
+    </rule>
+    <rule id="ec42-5d49-4a95-0256" name="Acute Senses" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="157">
+      <description>If a unit contains at least one model with this special rule, and that unit arrives on a random table edge (due to Outflank, or other special rules), then you can re-roll to see which table edge they arrive from.</description>
+      <modifiers/>
+    </rule>
+    <rule id="22b1-f498-8c52-a100" name="And They Shall Know No Fear" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="157">
+      <description>A unit that contains at least one model with this special rule automatically passes Fear and Regroup tests. When it Regroups, the unit does not make the 3&quot; Regroup move, but can instead move, shoot (or Run) and declare charges normally in that turn. Furthermore, if a unit containing one or more models with this special rule is caught by a Sweeping Advance, they are not destroyed, but remain locked in combat instead.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9b24-bce5-bcaa-8297" name="Battlesmith" hidden="false" book="Codex: Space Wolves" page="62">
+      <description>In each of your Shooting phases, instead of firing his weapons, an Iron Priest can choose to repair a single friendly vehicle that he is in base contact with or embarked upon. To repair a vehicle, roll a D6 and add +1 for each Servitor with a servo- arm in his unit. If the result is a 5 or more, you may either restore a Hull Point lost earlier in the battle, or repair a Weapon Destroyed or Immobilised result suffered earlier in the battle; this is effective immediately.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a153-4e1c-17de-10b6" name="Counter-attack" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="163">
+      <description>If a unit contains at least one model with this special rule, and that unit is charged, every model with the Counter-attack special rule in the unit gets +1 Attack until the end of the phase.
+If, when charged, the unit was already locked in combat, the Counter-attack special rule has no effect.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3190-239e-f138-098a" name="Eternal Warrior" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="163">
+      <description>If a model with this special rule suffers an unsaved Wound from an attack that inflicts Instant Death, it only reduces its Wounds by 1, instead of automatically reducing its Wounds to 0.</description>
+      <modifiers/>
+    </rule>
+    <rule id="67c2-70ef-44cd-a996" name="Fearless" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="163">
+      <description>Units containing one or more models with the Fearless special rule automatically pass Pinning, Fear, Regroup tests and Morale checks, but cannot Go to Ground and cannot choose to fail a Morale check due to the Our Weapons Are Useless rule. If a unit has Gone to Ground and then gains the Fearless special rule, all the effects of Go to Ground are immediately cancelled.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d778-8e6b-1747-f133" name="Feel No Pain" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="164">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being wounded (this is not a saving throw and so can be used against attacks that state that ‘no saves of any kind are allowed’, for example those inflicted by Perils of the Warp).
+
+Feel No Pain saves may not be taken against Destroyer attacks or against unsaved Wounds that have the Instant Death special rule.
+
+Roll a D6 each time an unsaved Wound is suffered. On a 4 or less, you must take the Wound as normal. On a 5+, the unsaved  Wound is discounted – treat it as having been saved.
+
+If a unit has the Feel No Pain special rule with a number in brackets afterwards –Feel No Pain (6+), for example – then the number in brackets is the D6 result needed to discount the Wound.</description>
+      <modifiers/>
+    </rule>
+    <rule id="191b-22b3-91cf-82fb" name="Infiltrate" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="167">
+      <description>Units that contain at least one model with this special rule are deployed last, after all other units (friend and foe) have been deployed. If both sides have Infiltrators, the players roll-off and the winner decides who goes first, then alternate deploying these units.
+
+Infiltrators can be set up anywhere on the table that is more than 12&quot; from any enemy unit, as long as no deployed enemy unit can draw line of sight to them. This includes in a building, as long as the building is more than 12&quot; from any enemy unit. Alternatively, they can be set up anywhere on the table more than 18&quot; from any enemy unit, even in plain sight.
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Infiltrate along with their Transport.
+A unit that deploys using these rules cannot charge in their first turn.
+Having Infiltrate also confers the Outflank special rule to units of Infiltrators that are kept as Reserves.
+
+Outflank
+During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy.
+When this unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1-2, the unit comes in from the table edge to the left of their controlling player’s own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves.
+If a unit with Infiltrate deploys inside a Dedicated Transport, they may Outflank along with their Transport.
+
+Infiltrate and Scout
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2e07-0a8c-88fb-bcfd" name="Inspiring Presence" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
+      <description>Any friendly model within 6&quot; of this model may use its Leadership for all Leadership tests.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e420-7be8-afd6-51af" name="Marked" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <description>Before attacking roll a D6, the model gains this many additional Attacks. However, if a 1 is rolled the model may not attack at all during this phase and suffers a single S5 AP3 hit.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bdbd-e339-f14e-1a07" name="Monster Hunter" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="168">
+      <description>A unit that contains at least one model with this special rule re-rolls all failed To Wound rolls against Monstrous Creatures.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ccb4-2b99-9881-4d95" name="Move Through Cover" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="168">
+      <description>A unit that contains at least one model with this special rule rolls an extra D6 when rolling to move through difficult terrain and is not slowed by charging through difficult terrain. In most circumstances, this will mean that, when moving, the unit rolls 3D6 and picks the highest roll. Furthermore, a model with the Move Through Cover special rule automatically passes Dangerous Terrain tests.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0719-4df0-20fb-6586" name="Non-learning" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
+      <description>The model may never gain Battle Honours.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7e1b-9321-95bf-eb1d" name="Oath of War" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="3">
+      <description>Any friendly Space Wolves models within 6&quot; of the model gain the Fearless special rule. In addition, the model can nominate one unit type at the beginning of the game, the model and all friendly Space Wolves models within 6” gain the Preferred Enemy special rule against models with that unit type. </description>
+      <modifiers/>
+    </rule>
+    <rule id="d100-c913-9c86-747d" name="Pack Leader" hidden="false" book="Kill Team List: Space Wolves 3.0a" page="1">
+      <description>In a team lead by a Wolf Guard Pack Leader with a Space Marine bike, you may take more than three Swiftclaw Bikers. If the Wolf Guad Pack Leader has a Jump Pack, you may take more than fire Skyclaws. In a team led by a Wolf Guard Terminator Leader, Wolf Guard Terminators my be taken as Core.</description>
+      <modifiers/>
+    </rule>
+    <rule id="cede-7e77-144b-3d34" name="Pack of One" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="7">
+      <description>The Lone Wolf never benefits from the Inspiring Presence rule. </description>
+      <modifiers/>
+    </rule>
+    <rule id="02b3-cc46-79e3-6ec5" name="Psyker (Mastery Level 1)" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="170">
+      <description>A model with this special rule is a Psyker. This rule is typically presented with a Mastery Level, shown in brackets – if no Mastery Level is shown then that model has a Mastery Level of 1. Rules for generating and manifesting psychic powers can be found in the Psychic phase section.</description>
+      <modifiers/>
+    </rule>
+    <rule id="dc87-85e5-cb10-4ce1" name="Rage" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="170">
+      <description>In a turn in which a model with this special rule charges into combat, it gains +2 Attacks for charging, rather than +1. A model that has made a disordered charge that turn receives no benefit from Rage.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c561-04b8-a298-f639" name="Scout" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="171">
+      <description>After both sides have deployed (including Infiltrators), but before the first player begins his first turn, a unit containing at least one model with this special rule can choose to redeploy. If the unit is Infantry, Artillery, a Walker or a Monstrous Creature, each model can redeploy anywhere entirely within 6&quot; of its current position. If it is any other unit type, each model can instead redeploy anywhere entirely within 12&quot; of its current position. During this redeployment, Scouts can move outside the owning player’s deployment zone, but must remain more than 12&quot; away from any enemy unit. A unit that makes a Scout redeployment cannot charge in the first game turn. A unit cannot embark or disembark as part of a Scout redeployment.
+
+If both sides have Scouts, roll-off; the winner decides who redeploys first. Then alternate redeploying Scout units.
+
+If a unit with this special rule is deployed inside a Dedicated Transport, it confers the Scout special rule to the Transport (though a disembarkation cannot be performed as part of the redeployment). Note that a Transport with this special rule does not lose it if a unit without this special rule is embarked upon it. Having Scout also confers the Outflank special rule to units of Scouts that are kept as Reserves.
+
+Outflank
+During deployment, players can declare that any unit that contains at least one model with this special rule is attempting to Outflank the enemy. When this unit arrives from Reserves, but not Ongoing Reserve, the controlling player rolls a D6: on a 1-2, the unit comes in from the table edge to the left of their controlling player’s own table edge; on a 3-4, they come on from the right; on a 5-6, the player can choose left or right. Models move onto the table as described for other Reserves. If a unit with Scouts is deployed inside a Dedicated Transport, they may Outflank along with their Transport.
+
+Iinfiltrate and Scout
+If a unit has both the Infiltrate and Scout special rule, that unit can deploy as per the Infiltrate special rule and then redeploy as per the Scout special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="89ef-9e84-413e-c5e0" name="Smoke" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <description>Any model that is hit by this weapon gains a 5+ cover save until the start of their next turn. You may target friendly models with this weapon.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e9e6-c1e8-7011-e37b" name="Specialist Weapon" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="172">
+      <description>A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2d59-a34b-1fc1-e5bc" name="Squad" hidden="false" book="HoR: Kill Team Rules v3.1" page="7">
+      <description>Some models in Kill Team do not act individually,  such as swarms of Tyranids. Where this is in effect ‘Squad’ will be noted in the unit’s Special Rules and will state how many models form the unit. For example, a Guardsman Squad has the Squad (5 Guardsmen) special rule so will consist of a unit of 5 Guardsmen. Simply treat the unit as normal, using the Warhammer 40,000 rules. 
+
+Models in a Squad do not use the A Team of Heroes rule, do not have to test for Nerve (but still test for Pinning and 25% casualties as normal) and may only Counter-charge if all members of the Squad are in range to do so into the same combat. Models in a Squad may only hide if every model in the Squad is eligible to do so, and if one model is ‘found’ then all models are found. You may climb and jump with a Squad, but if any model falls out of unit coherency the unit must regain its coherency as soon as possible (by using Run moves or jumping and climbing if need be).
+
+Individual models within a Squad may each target separate units when shooting. During Overwatch count all models within a Squad as single models when determining which models are within 3&quot;. If the Squad is charged by multiple models this allows the Squad to fire on multiple targets.
+
+If there is only one model left in a squad at any point, he immediately loses the ‘Squad’ special rule for the rest of the battle. Note that individual models will still count towards the Model Availability of a team and the team’s Run Away! limit during missions.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ff8c-d1e0-7519-85a3" name="Unwieldy" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="174">
+      <description>A model attacking with this weapon Piles In and fights at Initiative step 1, unless it is a Monstrous Creature or a Walker.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e8a5-f38c-7738-0081" name="Ward" hidden="false" book="Codex: Space Wolves" page="97">
+      <description>A model equipped with this weapon has the Adamantium Will special rule.</description>
+      <modifiers/>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="1eb0-2eab-3ed2-98bc" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Allfeather Totem" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Allfather Totem hangs high above the head of the Wolf Skald or Priest. The Wolf Skald/Priest and all Space Wolves models within 6” of him gain the Rage special rule. The Allfather Totem also counts as a banner. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3527-67f0-107e-33a1" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Amulet of Russ" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The amulet contains a powerful refractor field. Grants the model a 5+ invulnerable save. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="eb76-f70e-9cb2-fd0a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Assault Cannon" hidden="false" book="Codex: Space Wolves" page="Reference">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4, Rending"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="38d1-949c-57b9-4032" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Auspex" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model with an Auspex can use it in place of making a shooting attack. Target an enemy unit within 12&quot;. A unit that is targeted by one or more auspexes has its cover saves reduced by 1 until the end of the phase."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8daa-c10c-ad88-549e" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Auto-launchers" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model counts as having assault grenades that do not have the One Use rule (i.e. they never run out). These grenades may not be used in the Shooting phase. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="67c9-7cfa-0564-3d7b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Auxiliary Grenade Launcher" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A tubular device that fires pre-loaded grenades, fixed to the models primary weapon. This attachment allows any grenades to be fired in addition to another weapon in the shooting phase rather than instead of. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7ab2-df2e-a59c-a576" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Back Banner" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="1">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Counts as a &apos;banner&apos; when determining combat results."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3403-b46c-e863-fcbc" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Bifrost Gauntlets" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A pair of ancient gauntlets said to harness the power of Fenris to protect its wearer. Confers the bearer a 3+ armour save that may be re-rolled."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3469-2292-24b0-903d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Bionics" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model gains the Feel No Pain (6+) special rule."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b3be-4409-4cb7-d3d4" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Bolt Pistol" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="176">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1976-f2c1-019a-d6d0" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Boltgun" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a48f-4349-6a22-81ce" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Camo Cloak" hidden="false" book="Codex: Space Wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model wearing a camo cloak has +1 cover save. If it does not already have a cover save, it gains a 6+ cover save."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="50ac-fc5e-9ea5-e2dd" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Cataphractii Armour" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Cataphractii pattern was amongst the first Terminator armour issued, and suits of this type were even more heavily protected than their contemporaries. Models with Cataphractii Pattern Armour gain a 4+ invulnerable save and the Slow and Purposeful special rule, but lose the Relentless special rule. Models with this armour may not also take Tartaros Pattern Armour."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="34e9-57ee-62db-1ec7" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Chooser of the Slain" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Often taking form of a psyber-raven, the Chooser acts as a psychic familiar. At the start of the battle place a Chooser counter or model next to a single enemy model. This counter/model has no effect on the game but the Rune Skald/Priest treats his BS as one higher when shooting at the chosen enemy model (including Witchfire psychic powers)."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e867-e3b0-b694-8d1b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Close Combat Weapon" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="41">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5c10-13b8-a979-42d9" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Combi-Weapons" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="176">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model armed with a combi-weapon can choose to fire either the main boltgun, or the secondary weapon. You cannot fire both in the same turn. Each combi-weapon has only one secondary weapon. The main and secondary weapons of a combi-weapon fire at the same time as all other similarly named weapons in that unit. For example, the ‘boltgun’ part of a combi-weapon fires at the same time as all other boltguns in the unit."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="97f0-822f-8ccf-2bc8" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Crozius Arcanum" hidden="false" book="Codex: Space Wolves" page="97">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Concussive"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b3ef-437e-d71d-c97c" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Cyberwolf" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="5">
+      <characteristics>
+        <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Beast (Character)"/>
+        <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
+        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="0"/>
+        <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
+        <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
+        <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+        <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="4"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="3"/>
+        <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="6"/>
+        <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="44bb-30d2-0b1f-d823" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Cyclone Missile Launcher (Frag missile)" hidden="false" book="Codex: Space Wolves" page="95">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 2, Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e421-079f-9cb5-c29c" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Cyclone Missile Launcher (Krak missile)" hidden="false" book="Codex: Space Wolves" page="95">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="db94-e74b-ef7c-72e2" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Digital Weapons" hidden="false" book="Codex: Space wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model armed with digital weapons can re-roll a single failed To Wound in each Assault phase."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ff73-19c9-9dde-d654" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Fenrisian Wolf" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="5">
+      <characteristics>
+        <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Beast"/>
+        <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
+        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="0"/>
+        <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
+        <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
+        <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+        <characteristic characteristicId="450ea86d-cd46-31df-5555-0b11959d473b" name="I" value="4"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
+        <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="5"/>
+        <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="6+"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8c97-3cc4-1d51-bd9f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Flamer" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="176">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a3fa-07b2-934e-bc59" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Frag Grenade" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="180">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="8&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="3"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blast"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b273-d04d-af86-ff9b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Frag Grenade (melee)" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="180">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Models equipped with assault grenades don&apos;t suffer the penalty to their Initiative for charging enemies through difficult terrain, but fight at their normal Initiative in the ensuing combat."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="355d-0869-9afd-a4c0" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Frost Axe" hidden="false" book="Codex: Space Wolves" page="97">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwieldy"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0a9b-bbdb-0eea-a3c3" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Frost Sword" hidden="false" book="Codex: Space Wolves" page="97">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6828-83e5-c9fa-dcbb" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Healing Balms" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="3">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The model and any friendly Space Wolves models within 6” gain the Feel No Pain (6+) special rule. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="bd6f-9e0c-53e2-29dc" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Heavy Flamer" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="176">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b4cd-df27-2961-9694" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Helbiter" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol, Helfrost"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="54b4-1542-27ad-6a8c" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Helfrost Rifle" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Helfrost"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="92d4-f566-33ea-d228" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Jagged Barding" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The front armour plates of the Thunderwolf are covered in lethal barbs, adding massive damage when the model charges. The model gains +1 Strength to their Hammer of Wrath attack (normally to Strength 6)."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d310-8838-16ba-db33" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Jump Pack" hidden="false" book="Codex: Space Wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Models equipped with jump packs gain the Jump unit type, as described in Warhammer 40,000: The Rules (page 65).  "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1259-a3fe-5c0b-b8ec" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Keen Senses" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Pack Leader has a sense of smell even more sensitive than other Space Wolves. The model can shoot at and charge Hidden models."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d4b3-aeac-a62b-73f2" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Krak Grenade" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="181">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="8&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f6c5-7e31-4d62-1f55" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Krak Grenade (melee)" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="181">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="6"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="only against vehicles, gun emplacements or Monstrous Creatures"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="01fd-9e88-4ed6-dfc4" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Mark of the Wulfen" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Replaces all weapons (may never take weapons).  The Mark of the Wulfen is a corruption of the Canis Heliix that can cause the bearer to devolve into a killing machine when the battle frenzy is upon him. A model with the Mark of the Wulfen has the Rending special rule in close combat, and replaces his usual Attacks with D6+1, rolled just before he makes his attacks. These attacks are made using claws and teeth and are not affected by wargear, extra Melee weapons, etc."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1aac-73b4-ef37-08d3" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Master-crafted Weapon" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Choose a single weapon the model has to gain the Master-crafted special rule: Warhammer 40.000: The Rules, 7th Edition, page 167: Weapons with the Master-crafted special rule allow the bearer to re-roll one failed toll To Hit per turn with that weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="3767-3dbc-96e6-aaff" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Melta Bomb" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="181">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Armourbane, Unwieldy, only against vehicles, gun emplacements or Monstrous Creatures"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5449-13a7-e968-283b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Meltagun" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="177">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Melta"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="41be-48be-5e37-1a89" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Overcharged Weapon" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Choose a single ranged weapon the model has to be overcharged. This gains +1 Strength and the Gets Hot rule. Plasma weapons may be overcharged but will Get Hot on a To Hit roll of a 1 or 2 instead of just a 1."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1158-562d-32ca-ec52" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Pelt of the Dire Wolf" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="An ancient pelt from a massive Wolf of Fenris. This venerable hide has been interwoven with a cameleoline web. The model has the Stealth special rule."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4f64-1dc6-7554-4933" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Plasma Gun" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="177">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Rapid Fire, Gets Hot"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6eba-8abd-4375-523f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Plasma Pistol" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="177">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Pistol, Gets Hot"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4c1c-768e-fb58-de5a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Power Armour" hidden="false" book="Codex: Space Wolves" page="99">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Power armour confers a 3+ Armour Save."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9b70-e332-af5a-2631" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Axe" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwieldy"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="824c-93db-8f66-1d1b" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Fist" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Specialist Weapon, Unwieldy"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8e6b-0a44-df33-9ddd" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Lance" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1/User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3/4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="8421-2495-633f-50c0" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Maul" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Concussive"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cef5-0e2a-4508-3e4a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Power Sword" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="User"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ded9-fd53-99cc-6f8a" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Psychic Hood" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="26">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Each time a unit (or model) is targeted by an enemy psychic power and is within 12&quot; of a friendly model with a psychic hood, the wearer of the hood can attempt to Deny the Witch in their stead, as if he were in the target unit. If the Deny the Witch attempt is failed, the psychic power is resolved as normal, but effects only the initial target, not the wearer of the hood. If a model with a psychic hood is embarked in a vehicle or building, he can only use the hood to nullify powers targeting the vehicle or building he is embarked within."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f586-f0ad-9cd4-5bab" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Runic Armour" hidden="false" book="Codex: Space Wolves" page="99">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Runic armour confers a 2+ Armour Save and a 6+ invulnerable save."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f898-5ba1-27b5-8fdc" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Runic Axe" hidden="false" book="Codex: Space Wolves" page="97">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Force, Unwieldy, Ward"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ee5d-8767-6e00-93e4" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Saga of the Frontrunner" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Tales are sung of the pack leader’s leadership and charisma. The model’s Inspiring Presence radius is increased by 6” (normally to 12”). "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9fc6-6a6c-aaff-d3b1" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Sage of the Iron Wolf" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The hero can stir the machine spirit that growl within a vehicles engine. The Iron Priest adds +1 to any repair roll he makes. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9ec6-94aa-33a7-b562" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Scout Armour" hidden="false" book="Codex: Space Wolves" page="99">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Scout armour confers a 4+ Armour Save."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="76f0-56b3-85a8-ce10" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Servo-Arm" hidden="false" book="Codex: Space Wolves" page="97">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Unwielde, Specialist Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c293-4b26-f67d-8697" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Smoke Grenades" hidden="false" book="Kill Team List: Space Wolves v3.0a">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="8&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="-"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, One Shot, Large Blast, Smoke"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fabb-9d92-9d20-4388" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Sniper Rifle" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="177">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="X"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="6"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Sniper"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0364-a115-2a4f-b4ff" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Space Marine Bike" hidden="false" book="Codex: Space Wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Models equipped with Space Marine bikes change their unit type to Bike, as described in Warhammer 40.000: The Rules. Space Marine bikes are fitted with twin-linked boltguns."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b314-c1db-0476-428f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Space Marine Shotgun" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="177">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ec4a-d0eb-1135-bdc8" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Staff of Blizzards" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Template"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="-"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 1, Blind"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1b4d-4399-1aa2-a89f" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Storm Bolter" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="176">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="4"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Assault 2"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1dec-d73e-78f3-d5ad" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Storm Shield" hidden="false" book="Codex: Space Wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model with a storm shield has a 3+ invulnerable save. However, he can never claim the +1 bonus Attack for being armed with two Melee weapons in an assault."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="14b5-1a67-753c-46b6" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Suspensors" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A model with Suspensors that is equipped with a Heavy type weapon may fire this weapon at full BS even if he has moved in the Movement phase – although if he does so, the maximum range of the weapon is halved."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e9be-077d-dacb-e5f4" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Targeter" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="If a model with a Targeter has not moved in the previous Movement phase it may re-roll To Hit rolls of 1 when shooting."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="e3d9-8c65-f779-5032" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Tartaros Pattern Armour" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Tartaros pattern provides greater mobility for its wearer with no loss in durability or protection. Allows the model to make a Sweeping Advance. Models with this armour may not also take Cataphractii Pattern Armour."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5abf-96b2-5c05-bd4d" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Teleporter" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="9">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Instead of moving, a Terminator may teleport. Roll 2d6, the model may then move up to this amount in any direction, ignoring all terrain and models. If he does this he cannot assault this turn."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1049-e06a-3471-1dff" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Terminator Armour" hidden="false" book="Codex: Space Wolves" page="99">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Terminator armour confers a 2+ Armour Save and a 5+ invulnerable save. Furthermore, models in Terminator armour have the Bulky, Deep Strike and Relentless special rules, and may not make Sweeping Advances."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="fad0-c988-d034-d309" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Thunder Hammer" hidden="false" book="Warhammer 40.000: The Rules, 7th Edition" page="179">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="x2"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Concussive, Specialist Weapon, Unwieldy"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d41c-4662-0e7c-5277" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Thunderwolf Mount" hidden="false" book="Codex: Space Wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Models with a Thunderwolf mount change their unit type to Cavalry, as described in Warhammer 40.000: The Rules. All close combat attacks made by a model with a Thunderwolf mount have the Rending special rule. In addition, a model upgraded to have a Thunderwolf mount increases their Strength, Toughness, Attacks and Wounds characteristics by 1 (these bonuses are already included in the profiles of models that have a Thunderwolf mount as part of their standard wargear)."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0e62-3a82-e448-4bb7" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Tyrfang" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Marked"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1cd6-6967-b05a-b967" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Wolf Amulet" hidden="false" book="Codex: Space Wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="A wolf amulet confers a 4+ invulnerable save."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7e3b-d0e1-c16a-ff9a" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Wolf Claw" hidden="false" book="Codex: Space Wolves" page="97">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Shred, Specialist Weapon"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0733-5d00-a30f-6b70" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Wolf Helm" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="All friendly Space Wolf models within the Inspiring Presence radius of the team leader may re-roll all Morale checks."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c8d2-0b6c-682f-6ee7" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Wolf Standard" hidden="false" book="Codex: Space Wolves" page="98">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Any friendly units with the Space Wolves Faction within 12&quot; of the model bearing this banner re-roll failed Morale checks and Pinning tests. In addition, all models in friendly units with the Space Wolves Faction within 6&quot; of the bearer gain +1 attack. In addition, the Wolf Standard counts as a &apos;banner&apos; when working out combat results. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="89ee-0e82-ac84-7bc2" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Wolf Tail Talisman" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The talisman fortifies the mind and faith of it bearer. The model gains the Adamantium Will special rule."/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="7be2-5f43-85b2-47e7" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Wolftooth Necklace" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="One who has triumphed in one of the contests of might held at the Fang may be awarded a wolftooth necklace. In close combat, a model always hits on a 3+ regardless of comparative Weapon Skill. "/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="d568-336c-3684-9adb" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Wulfjaw" hidden="false" book="Kill Team List: Space Wolves v3.0a" page="8">
+      <characteristics>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="+1"/>
+        <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Rending, Strikedown"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+  </sharedProfiles>
+</catalogue>
